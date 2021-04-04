@@ -1,6 +1,6 @@
 # ProjetClearFashion
 
-ps: Click Next to check the codes.
+ps: Click on the Initial to check the codes.
 
 Bonjour monsieur, merci pour ce cours incroyable.
 Je vous écris ceci pour expliquer pourquoi vous ne verrez pas beaucoup de commits sur mon github.
