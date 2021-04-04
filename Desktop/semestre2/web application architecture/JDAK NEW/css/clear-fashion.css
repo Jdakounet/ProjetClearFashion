@@ -1,0 +1,111 @@
+#table-products{
+	font-family: 'Pathway Gothic One';
+    border: medium solid #121212;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;    
+    font-size: x-18px;
+    border-collapse: collapse;
+
+}
+/*--fonts--*/
+@font-face{
+	font-family: 'Didact Gothic';
+	src:url(../fonts/Didact_Gothic/DidactGothic.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'Pathway Gothic One';
+	src:url(../fonts/Pathway_Gothic_One/PathwayGothicOne-Regular.ttf) format('truetype');
+}
+table td, table th{
+	font-family: 'Pathway Gothic One';
+    padding: 10px;
+    text-align: center;
+    border: thin solid black;
+    border-bottom: 0;
+
+}
+img{
+    max-height: 200px;
+}
+select{
+    height: 25px;
+    font-size: 0.7em;
+}
+table{
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;   
+}
+reasonableprice{
+    height: 25px;
+    width: 300px;
+}
+body {
+    margin: 0;
+    font-family: 'Pathway Gothic One';
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: white; }
+table th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #000000;
+	font-family: 'Pathway Gothic One';
+}
+.custom-checkbox input[type="checkbox"],
+.custom-checkbox .checked {
+  display: none;
+}
+.custom-checkbox input[type="checkbox"]:checked ~ .checked
+{
+  display: inline-block;
+}
+.custom-checkbox input[type="checkbox"]:checked ~ .unchecked
+{
+  display: none;
+}
+.fa {
+color : red;
+font-size: 3rem;
+}
+#e.fa{
+color : deepskyblue;
+font-size: 2rem;
+}
+#f1,#f2{
+font-size: 2rem;
+}
+#options{
+    display: flex;
+}
+#show,#page,#sort{
+    flex-grow: 1;
+}
+#filters{
+    flex-grow: 2;
+
+    display: flex;
+}
+#filter-group-price, #filter-group-favorite, #brand, #sort, #page, #show{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+input[type="range"] {
+    width:300px;
+  }
+#indicators{
+    display: flex;   
+    flex-grow: 1;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}

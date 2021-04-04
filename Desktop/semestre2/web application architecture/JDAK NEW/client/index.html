@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>👕 Clear Fahion | Environmentally & human-friendly clothes</title>
+	  <link rel="stylesheet" href="../../../Documents/WILLMADEIT/WMI/clear-fashion.css">
+  </head>
+  <body>
+    <h1 align="center">Clear fashion</h1>
+    <section id="options">
+      <div id="show">
+        <label for="show-select">Show:</label>
+        <select name="show" id="show-select">
+          <option value="12">12</option>
+          <option value="24">24</option>
+          <option value="48">48</option>
+        </select>
+      </div>
+      <div id="page">
+        <label for="page-select">Go to page:</label>
+        <select name="page" id="page-select"> </select>
+      </div>
+      <div id="filters">  
+	    <span for="goodprice">
+              By reasonable price&nbsp&nbsp&nbsp&nbsp<br><input type="checkbox" id="goodprice" name="reasonableprice" align="bottom"></span>
+		          
+        <span for="recent">
+        recently released<br><input type="checkbox" id="recent" name="newrelease" align="bottom"></span>
+		  
+        <div id="brand">
+          <label for="brand-select">By brands:</label>
+<select name="brand" id="brand-select"> </select>
+        </div>
+      </div>
+      <div id="sort">
+        <label for="sort-select">Sort:</label>
+        <select name="sort" id="sort-select">
+          <option value="price-asc">Cheaper</option>
+          <option value="price-desc">Expensive</option>
+          <option value="date-asc">Recently released</option>
+          <option value="date-desc">Anciently released</option>
+        </select>
+      </div>
+    </section><h2 align="center" style="background-color: #F4B703">Indicators</h2>
+   <section id="indicators" style="text-align: center">
+		  <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>Number of products</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="nbProducts"></span>
+      </div>
+      <div>&nbsp;&nbsp;
+        <span style="align-content: center">Number of new products</span><br>
+        <span style="align-content: center" id="displayed"></span>
+      </div>
+      <div>&nbsp;&nbsp;
+        <span style="align-content: center">p50 price value</span><br>
+        <span style="align-content: center" id="p50"></span>
+      </div>
+      <div>&nbsp;&nbsp;
+        <span style="align-content: center">p90 price value</span><br>
+        <span style="align-content: center" id="p90"></span>
+      </div>
+      <div>&nbsp;&nbsp;
+        <span style="align-content: center">p95 price value</span><br>
+        <span style="align-content: center" id="p95"></span>
+      </div>
+</section>
+	  <h2 align="center" style="background-color: #F4B703">PRODUCTS</h2>
+    <section id="products" ></section>
+    <script type="text/javascript" charset="UTF-8" src="portfolio.js"></script>
+	  <br>
+	   <h2 align="center" style="background-color: #7A7575"><font color="white">DESIGN BY JEAN DAVID ALEXANDRE KOYE</font></h2>
+  </body>
+</html>
